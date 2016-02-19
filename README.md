@@ -1,5 +1,3 @@
-## [Check out the Houston install profile](https://github.com/poetic/houston)
-
 ## Using this Image
 
 To run
@@ -22,3 +20,9 @@ The only difference between the 2 commands is the database you choose. To build 
 
 ### MySQL
 `docker run --name your-mysql -P -e MYSQL_PASSWORD=password -d mysql`
+
+---
+
+### * [Houston install profile](https://github.com/poetic/houston)
+
+### * [Galveston on Docker Hub](https://hub.docker.com/r/reallukemartin/galveston/)
