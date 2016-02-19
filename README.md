@@ -28,7 +28,7 @@ The only difference between the 2 commands is the database you choose. To build 
 Example:
 
 ```
-docker run --name galveston -P -v /path/to/local/drupal:/var/www/html --link your-postgres:postgres -d reallukemartin/galveston
+docker run --name galveston -P -v /path/to/local/drupal/:/var/www/html/ --link your-postgres:postgres -d reallukemartin/galveston
 ```
 
 ---
