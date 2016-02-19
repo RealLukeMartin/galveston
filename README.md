@@ -18,7 +18,7 @@ docker run --name galveston -P --link your-mysql:mysql -d reallukemartin/galvest
 The only difference between the 2 commands is the database you choose. To build the database image that you want to  link to:
 
 ### PostgreSQL
-`docker run --name galv-postgres -P -e POSTGRES_PASSWORD=password -d postgres`
+`docker run --name your-postgres -P -e POSTGRES_PASSWORD=password -d postgres`
 
 ### MySQL
-`docker run --name galv-mysql -P -e MYSQL_PASSWORD=password -d mysql`
+`docker run --name your-mysql -P -e MYSQL_PASSWORD=password -d mysql`
