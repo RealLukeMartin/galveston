@@ -23,6 +23,16 @@ The only difference between the 2 commands is the database you choose. To build 
 
 ---
 
+## Mounting file system For local dev
+
+Example:
+
+```
+docker run --name galveston -P -v /path/to/local/drupal:/var/www/html --link your-postgres:postgres -d reallukemartin/galveston
+```
+
+---
+
 ### * [Houston install profile](https://github.com/poetic/houston)
 
 ### * [Galveston on Docker Hub](https://hub.docker.com/r/reallukemartin/galveston/)
